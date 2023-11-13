@@ -2,7 +2,7 @@
 
 Description [here](https://itacpc22.kattis.com/contests/wdqnr2/problems/calculatingdartscores).
 
-# Approach 1 (Greedy)
+### Approach 1 (Greedy)
 
 I first try to solve said problem using a greedy algorithm, where I try maximizing the `"triple"` values and then go for `"double"` and last `"single"`, here is the code [greedy.c](./greedy.c). This works, but not for all cases, for instance it won't work for a number like 137 as it will output:
 
@@ -20,7 +20,7 @@ double 10`
 
 So this is just only a partial solution to the problem.
 
-# Approach 2 (Dynamic Programming)
+### Approach 2 (Dynamic Programming)
 
 Let's break this problem into easier subproblems to solve, I decided to break down the problem as follows:
 
